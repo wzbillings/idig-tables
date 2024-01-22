@@ -3,7 +3,7 @@
 
 # Beautiful, Reproducible Tables in `R`
 
-> Last updated 2024-01-22 at 13:21 EST.
+> Last updated 2024-01-22 at 13:25 EST.
 
 This is a workshop I led at UGA’s Infectious Disease Interest Group
 seminar meeting on 2024-01-24.
@@ -12,6 +12,13 @@ seminar meeting on 2024-01-24.
 <!-- badges: end -->
 
 ## Contents Summary
+
+- Fake paper example with word table – [paper.docx](paper.docx) and
+  [paper.pdf](paper.pdf).
+- Final presentation slides – [tables.pptx](tables.pptx)
+- Table making demos – [tables.R](tables.R)
+- Using tables in Quarto demos – [idig-tables.qmd](idig-tables.qmd)
+- Everything else is a housekeeping or documentation file.
 
 ## Useful Links
 
