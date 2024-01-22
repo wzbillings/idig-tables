@@ -83,6 +83,7 @@ reported and are used under Fair Use for educational purposes.
 
 The following files are also used in this tutorial from Wikipedia under various
 Creative Commons licenses, which are applicable for this work.
+
 * `longwing1`: [https://commons.wikimedia.org/wiki/File:Papilio_ulysses_gabrielus_0zz.jpg](https://commons.wikimedia.org/wiki/File:Papilio_ulysses_gabrielus_0zz.jpg)
 * `longwing2`: [https://commons.wikimedia.org/wiki/File:Papilio_ulysses_autolycus_0zz.jpg](https://commons.wikimedia.org/wiki/File:Papilio_ulysses_autolycus_0zz.jpg)
 * `longwing3`: [https://commons.wikimedia.org/wiki/File:Papilio_ulysses_joesa.jpg](https://commons.wikimedia.org/wiki/File:Papilio_ulysses_joesa.jpg)

@@ -3,7 +3,7 @@
 
 # Beautiful, Reproducible Tables in `R`
 
-> Last updated 2024-01-22 at 14:40 EST.
+> Last updated 2024-01-22 at 14:44 EST.
 
 This is a workshop I led at UGA’s Infectious Disease Interest Group
 seminar meeting on 2024-01-24. If you just want to see the presentation,
@@ -75,12 +75,13 @@ source reported and are used under Fair Use for educational purposes.
 
 The following files are also used in this tutorial from Wikipedia under
 various Creative Commons licenses, which are applicable for this work.
-\* `longwing1`:
-<https://commons.wikimedia.org/wiki/File:Papilio_ulysses_gabrielus_0zz.jpg>
-\* `longwing2`:
-<https://commons.wikimedia.org/wiki/File:Papilio_ulysses_autolycus_0zz.jpg>
-\* `longwing3`:
-<https://commons.wikimedia.org/wiki/File:Papilio_ulysses_joesa.jpg>
+
+- `longwing1`:
+  <https://commons.wikimedia.org/wiki/File:Papilio_ulysses_gabrielus_0zz.jpg>
+- `longwing2`:
+  <https://commons.wikimedia.org/wiki/File:Papilio_ulysses_autolycus_0zz.jpg>
+- `longwing3`:
+  <https://commons.wikimedia.org/wiki/File:Papilio_ulysses_joesa.jpg>
 
 ## Contact Info
 
