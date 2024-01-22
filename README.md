@@ -1,9 +1,10 @@
 
+
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
 # Beautiful, Reproducible Tables in `R`
 
-> Last updated 2024-01-22 at 14:44 EST.
+> Last updated 2024-01-22 at 17:42 EST.
 
 This is a workshop I led at UGA’s Infectious Disease Interest Group
 seminar meeting on 2024-01-24. If you just want to see the presentation,
@@ -49,7 +50,7 @@ To run the code in this repository you should do the following steps.
 1.  Install `R`, `Quarto`, and (optionally) `RStudio`.
     - `R` version at time of writing: R version 4.3.2 (2023-10-31 ucrt).
     - `Rstudio` version at time of writing: 2023.12.0.369.
-    - `Quarto` version at time of writing: 1.3.340.
+    - `Quarto` version at time of writing: 1.4.547.
     - Complete `R` session information can be found in
       [`session-info.txt`](session-info.txt).
 2.  Install `renv` (version 1.0.3 at time of writing).

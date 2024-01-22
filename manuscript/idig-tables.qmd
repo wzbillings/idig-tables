@@ -1,0 +1,61 @@
+---
+title: | 
+  Morphological variations in a novel geographically-separated *Papilio*
+  species from Maluku Utara province, Indonesia
+authors: W. Zane Billings, Andreas Handel
+bibliography: refs.bib
+csl: aje.csl
+format: docx
+execute: 
+  echo: false
+---
+
+```{r setup, include = FALSE}
+library(gt)
+```
+
+
+# Abstract
+
+You could put the abstract here, if you wanted to.
+
+# Introduction
+
+We studied some butterflies in Indonesia.
+
+# Methods
+
+We caught the butterflies and measured them. We used telepathy to figure out
+the other things that we couldn't measure with a ruler. Three collectors
+independently collected samples at each of three locations on daily hikes.
+
+We used regression to do the statistics analysis [@gelman].
+
+# Results
+
+Demographic statistics are shown in [@tbl-table1]. We found that the
+butterflies were different at each of the sites.
+
+```{r}
+#| label: tbl-table1
+here::here("results", "t1.rds") |>
+	readr::read_rds() |>
+	gt::as_raw_html()
+```
+
+
+We also did some regressions, and those are in [@tbl-table2].
+
+```{r}
+#| label: tbl-table2
+here::here("results", "t2.rds") |>
+	readr::read_rds() |>
+	gt::as_raw_html()
+```
+
+
+# Discussion
+
+This paper is so good, it should be in Nature (Billings, personal communication, 2024).
+
+# References
