@@ -1,23 +1,34 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- README.md is generated from README.qmd. Please edit that file -->
 
 # Beautiful, Reproducible Tables in `R`
 
-> Last updated 2024-01-22 at 13:25 EST.
+> Last updated 2024-01-22 at 14:40 EST.
 
 This is a workshop I led at UGA’s Infectious Disease Interest Group
-seminar meeting on 2024-01-24.
+seminar meeting on 2024-01-24. If you just want to see the presentation,
+you should jump straight to the [tables.pptx](tables.pptx) file. The
+code examples are all in the [R](./R/) directory.
 
 <!-- badges: start -->
 <!-- badges: end -->
 
 ## Contents Summary
 
-- Fake paper example with word table – [paper.docx](paper.docx) and
-  [paper.pdf](paper.pdf).
-- Final presentation slides – [tables.pptx](tables.pptx)
-- Table making demos – [tables.R](tables.R)
-- Using tables in Quarto demos – [idig-tables.qmd](idig-tables.qmd)
+- `R`: contains `R` scripts and quarto documents which run code.
+  - `data-loading.R`: loads in the raw csv data, makes some small
+    changes, and exports to Rds format.
+  - `tables.R`: makes the table examples.
+  - `idig-tables.qmd`: an example of including the tables in a quarto
+    document.
+- `results`: contains any figures and table figures made by the code.
+- `static`: contains any other media that doesn’t get edited by code.
+  - data files, in (raw) CSV and (processed) Rds formats.
+  - images of three sample butterflies for demonstration (see licensing
+    section for more information).
+  - the demo paper (in Word and PDF formats) that I needed to make to
+    take a screenshot for the presentation.
+- `tables.pptx`: the final powerpoint for my seminar presentation.
 - Everything else is a housekeeping or documentation file.
 
 ## Useful Links
@@ -58,6 +69,18 @@ BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 **Code:** all code created by me is licensed under the GNU Affero
 General Public License, [AGPL 3.0](LICENSE.md).
+
+**Images not created by me:** all images in the powerpoint have their
+source reported and are used under Fair Use for educational purposes.
+
+The following files are also used in this tutorial from Wikipedia under
+various Creative Commons licenses, which are applicable for this work.
+\* `longwing1`:
+<https://commons.wikimedia.org/wiki/File:Papilio_ulysses_gabrielus_0zz.jpg>
+\* `longwing2`:
+<https://commons.wikimedia.org/wiki/File:Papilio_ulysses_autolycus_0zz.jpg>
+\* `longwing3`:
+<https://commons.wikimedia.org/wiki/File:Papilio_ulysses_joesa.jpg>
 
 ## Contact Info
 
