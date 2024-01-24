@@ -34,12 +34,17 @@ We used regression to do the statistics analysis [@gelman].
 # Results
 
 Demographic statistics are shown in [@tbl-table1]. We found that the
-butterflies were different at each of the sites.
+butterflies were different at each of the site
+
+$$
+y = b*x\int
+$$
 
 ```{r}
 #| label: tbl-table1
 here::here("results", "t1.rds") |>
 	readr::read_rds() |>
+	# Have to add this to prevent issues with docx output
 	gt::as_raw_html()
 ```
 

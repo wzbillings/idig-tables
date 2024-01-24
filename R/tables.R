@@ -23,6 +23,15 @@ box::use(
 # Read in the data file
 dat <- readr::read_rds(here::here("static", "longwing-data.Rds"))
 
+# Make the collector variable
+dat2 <-
+	dat |>
+	tidyr::separate_wider_delim(
+		cols = sample_id,
+		names = c(NA, "id", "collector"),
+		delim = "_"
+	)
+
 # Example 1 ####
 # Suppose we want to make a table of the first the butterflies and show their
 # exact measurements, not any summary statistics.
@@ -34,6 +43,9 @@ t1 <-
 	dplyr::select(
 		sample_id, wing_length, wing_width, antenna_length, body_length
 	) |>
+	dplyr::rename_with(
+		.fn = stringr::str_to_title
+	) |>
 	gt::gt()
 
 gt::gtsave(
@@ -42,6 +54,8 @@ gt::gtsave(
 	vwidth = 2400,
 	vheight = 1350
 )
+
+readr::write_rds(t1, here::here("results", "t1.rds"))
 
 # Example 2 ####
 # Adding some basic customizations
@@ -93,13 +107,6 @@ gt::gtsave(
 
 # Example 3 ####
 # Calculating summary statistics by hand and making a table
-dat2 <-
-	dat |>
-	tidyr::separate_wider_delim(
-		cols = sample_id,
-		names = c(NA, "id", "collector"),
-		delim = "_"
-	)
 
 # Contingency table by hand
 t3 <- table(
@@ -283,7 +290,7 @@ gt::gtsave(
 t5_mv <-
 	lm(
 		formula = wing_length ~ wing_width + age + antenna_length + body_length +
-			population,
+			population + age:population,
 		data = dat_reg
 	) |>
 	gtsummary::tbl_regression(
